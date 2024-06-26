@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100vh;
+    width: 100vw;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#container {
+    height: 70vh;
+    width: 70vw;
+
+    background-color: #f2f2f2;
+    display: flex;
+    align-items: end;
+
+    margin: 2rem;
+}
+
+#ball {
+    height: 6rem;
+    width: 6rem;
+
+    border-radius: 50%;
+    background: linear-gradient(lightgreen, green);
+}
+
+#controlContainer {
+    width: 70vw;
+    display: flex;
+    justify-content: space-around;
+}
+
+.btn {
+    padding: 0.5rem 0.7rem;
+    border: 0px;
+    border-radius: 8px;
+    background-color: rgb(92, 51, 255);
+    color: white;
+}
